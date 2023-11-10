@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(0, 0, 26);
+    color: white;
+    font-family: sans-serif;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+
+.about-content .text {
+    flex: 1;
+}
+
+.about-content .image {
+    flex: 1;
+    text-align: right;
+}
+
+.about-content .image:hover {
+    transform: scale(1.01);
+}
+
+.underheadline{
+    font-family: consolas;
+}
+
+.logo{
+    height: 500px;
+    top: -40px;
+}
+
+
