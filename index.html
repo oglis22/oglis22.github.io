@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>OGLIS22 || PORTFOLIO</title>
+    <title>DEVELOPER | OGLIS22</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -30,20 +31,20 @@
 </nav>
 
     <section class="container my-5">
-        <div style="margin-top: 30px;" class="row align-items-center">
+        <div style="margin-top: 10vh;" class="row align-items-center">
             <div class="col-md-6">
                 <h1>Hey, Im oglis22</h1>
-                <h5 style="color: rgb(172, 172, 172);">I am a programmer and a hacking enthusiast <br> You can learn more about me <a href="#about">here</a> </h5>
+                <h5 style="color: rgb(172, 172, 172);" id="typed-text"></h5>
             </div>
             <div class="col-md-6 text-center">
-                <img id="logo" src="img/logo.webp" alt="Dein Bild" class="img-fluid hover-zoom">
+                <img id="logo" src="img/logo.svg" alt="Dein Bild" class="img-fluid hover-zoom">
             </div>
         </div>
     </section>
 
 
-    <section id="about" class="container my-5">
-        <div style="margin-top: 120px;" class="row align-items-center">
+    <section id="about" class="container my-5 hidden">
+        <div class="row align-items-center">
 
             <div id="skillboxes" style="padding: 20px; box-shadow: 30px 30px 30px rgb(6, 6, 31); border-radius: 11px; border: 1px solid white; height: 330px;" class="col-md-6 text-center">
                 <h3 style="color: white;">Programm Languages</h3>
@@ -85,8 +86,23 @@
         </div>
     </section>
 
-    <!-- Weitere Sektionen -->
 
+    <section class="command-line hidden">
+        <div class="text__editor">
+           <div class="text__body">
+            $&nbsp; <span id="typed-text2"></span>
+           </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer" style="padding: 10px;">
+    <div class="container text-center">
+      <p>&copy; 2023 Oglis22 Portfolio</p>
+      <p>oglis22 production</p>
+    </div>
+  </footer>
+  <a href="https://storyset.com/technology">Technology illustrations by Storyset</a>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

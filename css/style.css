@@ -24,3 +24,59 @@ html {
     background-color: rgba(0, 0, 36, 0.959);
     transform: scale(1.005);
 }
+
+section {
+    min-height: 80vh;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s; 
+}
+    
+.show {  
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);  
+}
+    
+.skillbox:nth-child(2) {  
+    transition-delay: 200ms;      
+}
+.skillbox:nth-child(3) {    
+    transition-delay: 400ms;      
+}
+.skillbox:nth-child(4) {     
+    transition-delay: 600ms;      
+}
+
+#typed-text {
+display: inline;
+}
+
+#typed-text2 {
+    display: inline;
+}
+
+.command-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text__editor {
+    background-color: black;
+    width: 80%;
+    padding: 10px 10px 100px;
+    border: 8px;
+    border-top: 20px solid white;
+}
+
+
+.text__editor .text__body {
+    font-size: 15px;
+    color: white;
+}
